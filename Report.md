@@ -4,8 +4,10 @@
 
 
 ## Task 0
-#### 1) What is the greeting string issued by the server to the client upon first connecting?
-The greeting string issued by the server to the client upon first connecting : ECE Senior Capstone IoT simulator                 
+##### 1) What is the greeting string issued by the server to the client upon first connecting?
+The greeting string issued by the server to the client upon first connecting : ECE Senior Capstone IoT simulator
+on running sp_iotsim.server --> IoT server starting:  localhost port 8765
+on running sp_iotsim.client --> ECE Senior Capstone IoT simulator
 
 ## Task 1
 #### 1) Add Python code to Websockets client that saves the JSON data to a text file as it comes in (message by message)
@@ -36,19 +38,14 @@ Room | Median | Variance
 Lab1 | 5.00 | 5.05
 
 #### 3) Plots of Probability Distribution Functions for each Sensor
-<img width="639" alt="Screen Shot 2020-09-15 at 10 22 12 PM" src="https://user-images.githubusercontent.com/60219242/93285103-12c6c300-f7a2-11ea-932a-48a38cd12078.png">
-<img width="637" alt="Screen Shot 2020-09-15 at 10 21 46 PM" src="https://user-images.githubusercontent.com/60219242/93285069-0478a700-f7a2-11ea-8d30-7729ace067f7.png">
-<img width="638" alt="Screen Shot 2020-09-15 at 10 21 59 PM" src="https://user-images.githubusercontent.com/60219242/93285094-0c384b80-f7a2-11ea-8edb-5a88c5759aa6.png">
-
+<img width="638" alt="temperature_probability_desity" src="https://user-images.githubusercontent.com/60219242/93281284-c8d9df00-f799-11ea-96b3-81584a42ef75.png">
 
 #### 4) What is the mean and variance of the time interval of the sensor readings? Please plot its probability distribution function. Does it mimic a well-known distribution for connection intervals in large systems? 
-
+![Time Interval Probability Distribution](https://github.com/emperez/2020-sensor-miniproject/blob/main/Figure_2.png)
 ###### Time Interval of the Sensor Readings
 Mean | Variance
 -----|----------
 0.968014 | 1.013983
-
-<img width="632" alt="Screen Shot 2020-09-15 at 10 21 35 PM" src="https://user-images.githubusercontent.com/60219242/93285042-faef3f00-f7a1-11ea-8455-84a45c3f853c.png">
 
 Yes it mimics the erlang distribution which is used to predict waiting times in queuing systems.
 
