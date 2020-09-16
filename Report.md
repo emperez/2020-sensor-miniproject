@@ -41,7 +41,7 @@ Lab1 | 5.00 | 5.05
 <img width="638" alt="temperature_probability_desity" src="https://user-images.githubusercontent.com/60219242/93281284-c8d9df00-f799-11ea-96b3-81584a42ef75.png">
 
 #### 4) What is the mean and variance of the time interval of the sensor readings? Please plot its probability distribution function. Does it mimic a well-known distribution for connection intervals in large systems? 
-
+<img width="638" alt="time_interval_density" src="https://github.com/emperez/2020-sensor-miniproject/blob/main/Figure_2.png">
 ###### Time Interval of the Sensor Readings
 Mean | Variance
 -----|----------
